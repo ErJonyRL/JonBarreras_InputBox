@@ -53,7 +53,7 @@ namespace JonBarreras.Csharp04.Inputbox
                 // Aquí puedes realizar la lógica para mostrar los ficheros en tu aplicación
                 // Por ejemplo, podrías asignarlos a un ListBox o cualquier otro control de tu interfaz.
                 // En este ejemplo, solo mostraremos un MessageBox con la lista de ficheros.
-                MessageBox.Show("Ficheros locales al ejecutable:\n" + string.Join("\n", files));
+                Tsalida.Text = "Ficheros locales al ejecutable:\n" + string.Join("\n", files);
             }
             else
             {
